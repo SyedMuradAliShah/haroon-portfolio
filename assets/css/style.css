@@ -60,9 +60,6 @@ body {
   border: 2px solid #130F49;
   overflow: hidden;
 }
-.portfolio-wrapper .side-bar .side-navbar .profile-img img {
-  height: 100%;
-}
 .portfolio-wrapper .side-bar .side-navbar .name {
   margin-top: 10px;
   font-size: 1.5rem;
@@ -229,7 +226,6 @@ body {
   padding: 15px;
 }
 .wrapper-content .gallery-items .gallery-img {
-  height: 280px;
   border-radius: 15px;
   overflow: hidden;
 }

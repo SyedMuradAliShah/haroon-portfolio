@@ -62,9 +62,9 @@ $primary:#130F49;
                 border-radius: 100%;
                 border: 2px solid $primary;
                 overflow: hidden;
-                img{
-                    height: 100%;
-                }
+                // img{
+                //     height: 100%;
+                // }
             }
             .name{
                 margin-top: 10px;
@@ -249,7 +249,6 @@ $primary:#130F49;
         border-radius: 15px;
         padding: 15px;
         .gallery-img{
-            height: 280px;
             border-radius: 15px;
             overflow: hidden;
             img{
