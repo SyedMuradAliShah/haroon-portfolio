@@ -291,4 +291,48 @@ body {
   .wrapper-content .publication-box a {
     font-size: 0.8rem;
   }
+}
+.post {
+  text-align: justify;
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.2509803922);
+  color: gray;
+}
+.post h5 {
+  color: #130F49;
+}
+.post .more {
+  display: none;
+}
+.post .post:not(:last-child) {
+  margin-bottom: 30px;
+}
+.post button {
+  margin-top: 8px;
+  display: block;
+  background-color: #a3a6fe;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 3px 8px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.skills {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.2509803922);
+  color: gray;
+}
+.skills h5 {
+  color: #130F49;
+}
+.skills .more-text {
+  margin-top: 33px;
 }/*# sourceMappingURL=style.css.map */

@@ -321,3 +321,57 @@ $primary:#130F49;
         font-size: 0.8rem;
     }
 }
+.post{
+    text-align: justify;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #80808040;
+    color: gray;
+    h5{
+        color: $primary;
+    }
+
+    .more{
+        display: none;
+     }
+    
+     .post:not(:last-child){
+        margin-bottom: 30px;
+     }
+     button{
+        margin-top: 8px;
+        display: block;
+        background-color: #a3a6fe;
+        color: white;
+        border: none;
+        outline: none;
+        padding: 3px 8px;
+        text-transform: capitalize;
+        font-size: 14px;
+        font-weight: 500;
+        border-radius: 5px;
+     }
+}
+.skills{
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid rgba(128, 128, 128, 0.2509803922);
+    color: gray;
+    h5{
+        color: $primary;
+    }
+    .more-text{
+        margin-top: 33px;
+    }
+}
+
+
+
+
+
+
+
+
+  
