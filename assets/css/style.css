@@ -171,30 +171,6 @@ body {
   font-size: 0.8rem;
   font-weight: 700;
 }
-.wrapper-content .contact-page .contact-box {
-  background-color: #a5a6ff;
-  text-align: center;
-  padding: 20px;
-  border-radius: 15px;
-  color: white;
-}
-.wrapper-content .contact-page .contact-box i {
-  font-size: 25px;
-  color: #ffffff;
-  margin-bottom: 10px;
-}
-.wrapper-content .contact-page .contact-form label {
-  transition: 0.4s all;
-}
-.wrapper-content .contact-page .contact-form .form-control:focus {
-  box-shadow: none;
-  border: 2px solid #a5a6ff;
-}
-.wrapper-content .contact-page .map {
-  border: 1px solid #a5a6ff;
-  padding: 10px;
-  background-color: #ffffff;
-}
 .wrapper-content .project-items .project-box {
   background-color: #ffffff;
   padding: 15px;
@@ -298,7 +274,6 @@ body {
   padding: 15px;
   border-radius: 10px;
   border: 1px solid rgba(128, 128, 128, 0.2509803922);
-  color: gray;
 }
 .post h5 {
   color: #130F49;
@@ -312,7 +287,7 @@ body {
 .post button {
   margin-top: 8px;
   display: block;
-  background-color: #a3a6fe;
+  background-color: #130F49;
   color: white;
   border: none;
   outline: none;
@@ -328,7 +303,6 @@ body {
   padding: 15px;
   border-radius: 10px;
   border: 1px solid rgba(128, 128, 128, 0.2509803922);
-  color: gray;
 }
 .skills h5 {
   color: #130F49;

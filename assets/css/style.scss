@@ -184,36 +184,36 @@ $primary:#130F49;
             font-weight: 700;
         }
     }
-    .contact-page{
-        .contact-box{
-            background-color: $secondary;
-            text-align: center;
-            padding: 20px;
-            border-radius: 15px;
-            color: white;
-            i{
-                font-size: 25px;
-                color: #ffffff;
-                margin-bottom: 10px;
-            }
-        }
-        .contact-form{
-            label{
-                transition: 0.4s all;
-            }
-            .form-control{
-                &:focus{
-                    box-shadow: none;
-                    border: 2px solid $secondary;
-                }
-            }
-        }
-        .map{
-            border: 1px solid $secondary;
-            padding: 10px;
-            background-color: #ffffff;
-        }
-    }
+    // .contact-page{
+    //     .contact-box{
+    //         background-color: $secondary;
+    //         text-align: center;
+    //         padding: 20px;
+    //         border-radius: 15px;
+    //         color: white;
+    //         i{
+    //             font-size: 25px;
+    //             color: #ffffff;
+    //             margin-bottom: 10px;
+    //         }
+    //     }
+    //     .contact-form{
+    //         label{
+    //             transition: 0.4s all;
+    //         }
+    //         .form-control{
+    //             &:focus{
+    //                 box-shadow: none;
+    //                 border: 2px solid $secondary;
+    //             }
+    //         }
+    //     }
+    //     .map{
+    //         border: 1px solid $secondary;
+    //         padding: 10px;
+    //         background-color: #ffffff;
+    //     }
+    // }
     .project-items{
         .project-box{
             background-color: #ffffff;
@@ -327,7 +327,6 @@ $primary:#130F49;
     padding: 15px;
     border-radius: 10px;
     border: 1px solid #80808040;
-    color: gray;
     h5{
         color: $primary;
     }
@@ -342,7 +341,7 @@ $primary:#130F49;
      button{
         margin-top: 8px;
         display: block;
-        background-color: #a3a6fe;
+        background-color: $primary;
         color: white;
         border: none;
         outline: none;
@@ -358,7 +357,6 @@ $primary:#130F49;
     padding: 15px;
     border-radius: 10px;
     border: 1px solid rgba(128, 128, 128, 0.2509803922);
-    color: gray;
     h5{
         color: $primary;
     }
