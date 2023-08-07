@@ -49,6 +49,11 @@ $primary: #130f49;
                 outline: none;
             }
             .nav-item {
+                a{
+                    &:hover{
+                        color: $secondary !important;
+                    }
+                }
                 .active {
                     color: $secondary !important;
                 }
@@ -110,6 +115,7 @@ $primary: #130f49;
         }
         .ser-info {
             margin-top: 20px;
+            text-align: justify;
         }
     }
     .contact-info {
@@ -391,4 +397,14 @@ $primary: #130f49;
             color: #fff;
         }
     }
+}
+.qoute{
+    background-color: #130f49;
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem;
+    font-style: italic;
+    margin-bottom: 20px;
 }
