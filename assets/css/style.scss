@@ -261,53 +261,7 @@ $primary: #130f49;
     .gallery-video {
         .gallery-img {
             position: relative;
-            .play {
-                position: absolute;
-                top: 0;
-                left: 0;
-                right: 0;
-                bottom: 0;
-                margin: auto;
-                width: 70px;
-                height: 70px;
-                background: $primary;
-                border-radius: 100%;
-                display: grid;
-                place-items: center;
-                text-decoration: none;
-                color: #ffffff;
-                font-size: 1.5rem;
-                z-index: 1;
-                &::before {
-                    content: "";
-                    position: absolute;
-                    height: 100%;
-                    width: 100%;
-                    z-index: -1;
-                    background-color: $secondary;
-                    border-radius: 100%;
-                    opacity: 0.7;
-                    animation: pulse 2s ease-out infinite;
-                }
-                &::after {
-                    content: "";
-                    position: absolute;
-                    height: 100%;
-                    width: 100%;
-                    z-index: -1;
-                    background-color: $secondary;
-                    border-radius: 100%;
-                    opacity: 0.7;
-                    animation: pulse 2s 1s ease-out infinite;
-                }
-            }
         }
-    }
-}
-@keyframes pulse {
-    100% {
-        transform: scale(2.5);
-        opacity: 0;
     }
 }
 
