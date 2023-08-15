@@ -165,7 +165,7 @@ body {
   color: gray;
 }
 .wrapper-content .intrest-items .intrest-box a {
-  color: #ffffff;
+  color: #000000 !important;
   text-decoration: none;
 }
 .wrapper-content .intrest-items .intrest-box p {
